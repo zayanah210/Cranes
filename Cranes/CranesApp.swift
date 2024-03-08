@@ -11,7 +11,8 @@ import SwiftUI
 struct CranesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+
+            MainViewControllerWrapper()
         }
     }
 }
